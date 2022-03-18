@@ -80,4 +80,4 @@ Alpine.start();
 ![](https://img.shields.io/bundlephobia/min/alpinejs-jsz)
 ![](https://img.shields.io/npm/v/alpinejs-jsz)
 ![](https://img.shields.io/npm/dt/alpinejs-jsz)
-![](https://img.shields.io/github/license/markmead/alpinejs-jsz)
+![](https://img.shields.io/github/license/racha/alpinejs-jsz)

@@ -1,6 +1,6 @@
 {
   "name": "alpinejs-jsz",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "AlpineJS JSX/Moustache like Syntax",
   "type": "module",
   "keywords": [
