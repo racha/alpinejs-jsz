@@ -1,0 +1,33 @@
+{
+  "name": "alpinejs-jsz",
+  "version": "1.0.2",
+  "description": "AlpineJS JSX like Syntax",
+  "keywords": [
+    "Alpine JSX",
+    "Alpine Moustache",
+    "Alpine Template",
+    "Alpine JS Plugin",
+    "Alpine JS",
+    "Alpine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/racha/alpinejs-jsz.git"
+  },
+  
+  "author": "Stefan Racic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racha/alpinejs-jsz/issues"
+  },
+  "homepage": "https://github.com/racha/alpinejs-jsz#readme",
+  "main": "dist/jsz.cjs.js",
+  "module": "dist/jsz.esm.js",
+  "unpkg": "dist/jsz.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.27"
+  }
+}
