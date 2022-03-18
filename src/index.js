@@ -25,7 +25,6 @@ export default function (Alpine) {
     }
 
     effect(() => {
-      console.log(template);
       targetEl.innerHTML = evaluateIt(template);
     })
 
