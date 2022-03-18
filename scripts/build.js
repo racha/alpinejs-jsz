@@ -1,6 +1,11 @@
+import esbuild from 'esbuild';
+import babel from 'esbuild-plugin-babel';
+
 build({
   entryPoints: [`builds/cdn.js`],
   outfile: `dist/jsz.cdn.js`,
+  plugins: [babel()],
+  target: ['es5'],
   platform: "browser",
   define: { CDN: true },
 });
@@ -22,7 +27,7 @@ build({
 function build(options) {
   options.define || (options.define = {});
 
-  return require("esbuild")
+  return esbuild
     .build({ ...options, minify: true, bundle: true })
     .catch(() => process.exit(1));
 }
