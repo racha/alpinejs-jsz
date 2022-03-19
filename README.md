@@ -1,4 +1,4 @@
-# Apline JS X-JSZ
+# Alpine JS X-JSZ
 
 Alpine JS plugin `x-jsz` allows you to use `JSX/Moustache` like syntax for templating avoding the need for `x-text` and `x-html` and creating new DOM Nodes for each text/string you need to show.
 
@@ -53,7 +53,7 @@ Make sure to use correct `HTML` tag as x-jsz will use it to create a new node af
 ### CDN
 
 ```html
-<script src="https://unpkg.com/alpinejs-jsz@latest/dist/jsz.cdn.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs-jsz@latest/dist/jsz.cdn.js"></script>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
 
@@ -77,6 +77,7 @@ Alpine.start();
 
 ### Stats 
 
+[![](https://data.jsdelivr.com/v1/package/npm/alpinejs-jsz/badge)](https://www.jsdelivr.com/package/npm/alpinejs-jsz)
 ![](https://img.shields.io/bundlephobia/min/alpinejs-jsz)
 ![](https://img.shields.io/npm/v/alpinejs-jsz)
 ![](https://img.shields.io/npm/dt/alpinejs-jsz)

@@ -1,6 +1,6 @@
 {
   "name": "alpinejs-jsz",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "AlpineJS JSX/Moustache like Syntax",
   "type": "module",
   "keywords": [
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/racha/alpinejs-jsz#readme",
   "main": "dist/jsz.cjs.js",
   "module": "dist/jsz.esm.js",
-  "unpkg": "dist/jsz.min.js",
+  "unpkg": "dist/jsz.cdn.js",
+  "jsdelivr": "dist/jsz.cdn.js",
+  "browser": "dist/jsz.cdn.js",
   "scripts": {
     "build": "node scripts/build.js"
   },
